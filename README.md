@@ -51,9 +51,13 @@ User Input Format
 The program expects the user to enter values in the following format:
 
 Enter time of day (Morning, Afternoon, Evening, Night): afternoon
+
 Enter number of steps: 768
+
 Enter temperature: 8
+
 Enter wind speed: 17
+
 Enter genre/mood (Chill, Upbeat, etc.): hip-hop
 
 Example Output
@@ -84,11 +88,7 @@ Batch Size: 10
 
 Data Split: 80% training, 20% testing
 
-Error Handling
 
-If the user enters an invalid time of day or genre/mood, an error message is displayed with valid options.
-
-If non-numeric values are entered for steps, temperature, or wind speed, the program will prompt for valid numeric input.
 
 
 
